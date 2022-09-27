@@ -15,6 +15,18 @@ Cloud as a role involves the connection of applications to the internet put simp
 There are many benefits to Cloud but perhaps the most notable one would have to be the benefit of using Data centers over on site servers. The pay as you go model that many different cloud providers offer allows companies to better allocate resources to their applications and respond to demand much faster than they previously could using On Site resources. With this flexibility in the way companies can attack publication of their products, it has never been easier for companies of all sizes to maintain and publish their products.
 
 ## CICD
+### Explanation of CICD:
+CICD stands for continuous integration continuous development. It basically is the idea that every change we make to our application should be consistently pushed to the deployed verion of our application, meaning that small updates to an application are constantly being made and deployed. This benefits the company in many ways but perhaps the most invaluable is the feedback that they can procure from users. Since CICD pipelines make it a very simple manner to push the latest changes to deployment, the response to those changes are much faster and more accurate than traditional larger updates, the user in this situation is essentially the beta tester for whatever features or changes development teams are currently working on.
+
+### Jenkins
+- Created a Jenkins Pipeline that could automatically deploy an application when a push was made to the main branch on GitHub.
+- Configured this pipeline to create an AWS instance.
+
+### Packer
+- Set up multiple AMI's that could be re deployed and utilized by programs like Terraform to make the instantiation of instances more efficient.
+
+### Benefits of CICD:
+The main benefit of CICD is that you are always updating your application. Every change you make will get feedback the moment you finish a working version of that change after it's deployed using a CICD pipeline. This allows companies to rollback changes that recieved negative criticism from users, or to focus more on changes that recieved positive feedback from users.
 
 
 
