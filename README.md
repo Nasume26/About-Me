@@ -58,4 +58,10 @@ Provisioning is a term used to describe the setting up of an environment in orde
 
 
 ### Terraform
+- Created multiple terraform environments.
+  - AWS Instance creation
+  - MySQL 
+- Utilized packer for the AMI selection.
 
+### Benefits of Provisioning:
+The largest benefit of creating infastructure for provisioning is that you do not need to worry about user specific errors when it comes to handing your application to someone else. The provisioning scripts in conjunction with tools like Vagrant allow any user with Vagrant installed to recieve a working version of your application without having to worry about installing all the dependancies needed, as well as not worrying about any OS environment errors that could have occured if they had tried to run your application on their host machine. 
