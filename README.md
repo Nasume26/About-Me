@@ -65,3 +65,14 @@ Provisioning is a term used to describe the setting up of an environment in orde
 
 ### Benefits of Provisioning:
 The largest benefit of creating infastructure for provisioning is that you do not need to worry about user specific errors when it comes to handing your application to someone else. The provisioning scripts in conjunction with tools like Vagrant allow any user with Vagrant installed to recieve a working version of your application without having to worry about installing all the dependancies needed, as well as not worrying about any OS environment errors that could have occured if they had tried to run your application on their host machine. 
+
+
+## Networking
+### Explanation of Networking:
+Networking is the act of creating connections between different applications and managing those connections. It involves manging the networks that applications themselves utilize to interact with each other and the user base.
+
+- Created a VPC using terraform
+- Learned about the importance of the composition of an IPV4 address and how each individual octave affects subsequent octaves.
+
+### Benefits of Networking:
+The main benefits of Networking are that the person working on the Network can better serve the needs of each application. From forwarding ports to creating security rules that prohibit or allow access in to your application, you can better regulate traffic and prevent possible security risks based on the Network you have created. Without networking, the internet would not be able to regulate this traffic nearly as efficiently if at all. A basic understanding is required to create any sort of connection on the internet.
