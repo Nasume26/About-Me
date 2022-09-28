@@ -78,11 +78,26 @@ Networking is the act of creating connections between different applications and
 The main benefits of Networking are that the person working on the Network can better serve the needs of each application. From forwarding ports to creating security rules that prohibit or allow access in to your application, you can better regulate traffic and prevent possible security risks based on the Network you have created. Without networking, the internet would not be able to regulate this traffic nearly as efficiently if at all. A basic understanding is required to create any sort of connection on the internet.
 
 ## Principle Of Least Privelage:
+### Explanation of Principle of Least Privelage
 This principle is based on the concept of giving no access to an application or service to any user to begin with, and slowly granting access on a need to access basis as the application develops. This shores up possible holes in the security of your application by giving access purposefully, rather than restricting access based on a users permissions.
 
 
-## AWS
+### AWS
 Aws is a great example of this, for nearly every service on AWS by default access is incredibly restricted. In company accounts, you have to explicitly give access to even the tools that AWS has to sub users which may seem a bit overkill with how difficult it is to access AWS in the first place, but in reality adds much needed security to what could be considered one of the most vulnerable aspects of any application. By restricting access by default, AWS keeps sub users in a company from accidentally, or possibly maliciously, destroying months or even years worth of work.
 
 ### Benefits of The Principle Of Least Privelage:
-THe largest benefit to this principle is the knowledge that your application is far more secure from conception than it would be if the application was constructed with open permissions. If you have to explicitly give access to manage your application, the odds of an attack against your application decrease exponentially.
+The largest benefit to this principle is the knowledge that your application is far more secure from conception than it would be if the application was constructed with open permissions. If you have to explicitly give access to manage your application, the odds of an attack against your application decrease exponentially.
+
+
+## IAC
+### Explanation of IAC
+IAC stands for infrastructure as code. The idea behind it is to remove the human error that comes from manual configuration of infrastructure. This can realate to a multitude of tools and applications used in DevOps but essentially it replaces the manual configuration of environments or instances with coding tools which have the benefit of not only being reusable, but consistent.
+
+### Terraform
+- Created AWS EC2 instances using Terraform
+
+### Vagrant 
+- Created multiple VM's using Vagrant that utilize provisioning scripts to create reusable easy to access environments.
+
+### Benefits of IAC
+THe largest benefit of IAC is that your environment will always be configured exactly the same every time you run your IAC config file. Whereas before you would have to create something like an EC2 instance manually, slecting the AMI, VPC, and security groups inside the AWS console, tools like Terraform allow the creation of identical instances with a single command. These config fills can be re used and re tooled depending on the use case, which decreases the time spent setting up environments for testing or deployment.
