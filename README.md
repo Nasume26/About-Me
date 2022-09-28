@@ -101,3 +101,17 @@ IAC stands for infrastructure as code. The idea behind it is to remove the human
 
 ### Benefits of IAC
 THe largest benefit of IAC is that your environment will always be configured exactly the same every time you run your IAC config file. Whereas before you would have to create something like an EC2 instance manually, slecting the AMI, VPC, and security groups inside the AWS console, tools like Terraform allow the creation of identical instances with a single command. These config fills can be re used and re tooled depending on the use case, which decreases the time spent setting up environments for testing or deployment.
+
+
+## Terraform and Packer
+### Explanation of Terraform and Packer
+Terraform and Packer are tools that help orchestrate infrastucture configuration. These tools allow us to take a snapshot of an applications desired state then utilize it in a IAC config file to make deployment to cloud providers like AWS both quick and easily reproduceable.
+
+- Created multiple Packer AMI's
+  - NodeJS
+  - MongoDB
+  - MySQL
+- USed Terraform to deploy these AMI's to an EC2 instance
+
+### Benefit of Terraform and Packer
+The main benefit of Terraform and Packer is that you never have to access your specific cloud providers console to spin up an instance. WIth a single command you can recreate an environment for your application and destroy it just as easily. This saves you time, and keeps every single instance you create consistent since it removes the possibility of human error when configuring an instance in between changes.
