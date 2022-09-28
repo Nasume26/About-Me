@@ -31,6 +31,15 @@ The main benefit of CICD is that you are always updating your application. Every
 
 
 ## Jenkins
+### Explanation of Jenkins:
+Jenkins is a tool that is used to create CICD pipelines. It facilitates the connection between your github repository and your production instances, allowing your main branch changes to be pushed to production.
+
+- Created a pipeline that connected a GitHub application to AWS, instantiating the changes made whenever a change was made to main.
+- Created a couple basic projects using Jenkins, utilized scripts to rsync the files to the AWS instance.
+
+
+### Benefits of using Jenkins
+THe main benefit of Jenkins coincides with the benefits of CICD. Your changes are always pushed to production, at least in the use case I have experienced. Jenkins is heavily configurable, and can be made to do all sorts of actions depending on the use case. It is an invaluable tool when it comes to automating traditionally strenuous time consuming tasks.
 
 
 
