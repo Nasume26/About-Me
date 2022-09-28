@@ -45,3 +45,17 @@ THe main benefit of Jenkins coincides with the benefits of CICD. Your changes ar
 
 
 ## Provisioning
+### Explanation of Provisioning:
+Provisioning is a term used to describe the setting up of an environment in order to make it useable by anyone who wants to either use, test or develop an application. Provisioning in Cloud specifically let's us create scripts and utilize tools that install all the dependancies needed for someone to get a working version of our application with a single command.
+
+### Vagrant
+- Created multiple Vagrant Environments, and interconnected them.
+  - NodeJS Env
+  - MongoDB Env
+  - MySQL Env
+  - React Env
+- Wrote bash scripts for each of the environments that install the required dependancies.
+
+
+### Terraform
+
