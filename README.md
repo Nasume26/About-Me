@@ -155,3 +155,13 @@ React is a JS library that is commonly used. It was developed by Facebook (now M
 
 ### Benefits of using React
 The largest benefit of using React is that your code becomes far more maintainable. Instead of one gigantic JS file and however many HTML files, you combine HTML and Javascript into one easy to read JSX file structure. Along with this idea, your components and containers are REUSEABLE, meaning you can call that same component wherever you want in your webapp multiple times and pass it different information each time. This streamlines the construction of web applications in React making it a far better choice than pure JS.
+
+## Open Source
+### Explantion of Open Source
+Open source is essentialy the description for software that does not require a liscense to use, edit, or copy. It is entirely open to the public and it's source code is available for anyone to view. Open Source Software is INCREDIBLY useful to anyone in the tech space, as it reduces cost and headache that comes from procuring a liscense to even use a piece of software. 
+
+- React
+- Linux
+
+### Benefits of Open Source
+The benefit to using Open Source Software is mainly that you are able to utilize it in any application you want without the need to pay any kind of fee for it. You can also edit the source code if you so desired to better fit your needs. Open Source software is getting less and less common over time, however what we DO have in that space has been consistently upgraded and streamlined by the general public. 
