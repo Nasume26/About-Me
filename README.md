@@ -115,3 +115,43 @@ Terraform and Packer are tools that help orchestrate infrastucture configuration
 
 ### Benefit of Terraform and Packer
 The main benefit of Terraform and Packer is that you never have to access your specific cloud providers console to spin up an instance. WIth a single command you can recreate an environment for your application and destroy it just as easily. This saves you time, and keeps every single instance you create consistent since it removes the possibility of human error when configuring an instance in between changes.
+
+
+# Extended Glossary
+
+## AWS
+### Explanation of AWS
+AWS is a cloud provider that has too many uses to list here. I have primarily used AWS for file storage and web hosting. The tools AWS provides are invaluable, allowing anyone in the DevOps space to efficiently host web applications.
+
+- Created multiple EC2 Instances
+  - SQL Database
+  - MongoDB Database
+  - Node App
+  - React App
+- Utilized S3 Bucket for File Storage
+
+## Benefits of using AWS
+Simmilar to Cloud, the benefits of AWS mainly include the Pay as You go model of web hosting, as well as removing the need for infrastructure held directly on your companies property. Load balancing is far easier, and monitoring is more streamlined and easier to set up. AWS is also easily connected to a multitude of Devops applications such as Terraform, Ansible, or Packer.
+
+## Javascript
+### Explanation of Javascript
+Javascript is a programming language that is closely tied to web applications. It is a high level programming language and one of the more easy to grasp programming languages for beginners. You can modify HTML code with Javascript and add programming fucntionality to your web applications. Most of the internet today uses Javascript in one form or another.
+
+- Created a WebApp game utilizing pure JS and HTML
+- Created Multiple WebPages
+
+### Benefits of using Javascript
+There are many benefits to using javascript but perhaps the most important is the ability to progmatically audit web pages. This allows web pages to become more advanced in what they can do, from items like conditional rendering, to mapping over API data in order to quickly and easily insert data from the internet into a website. Without Javascript the internet would be a very different place and it's use case has only increased in the past decade.
+
+
+## React
+### Explanation of React
+React is a JS library that is commonly used. It was developed by Facebook (now Meta) and is Open Source. The idea of React was to compartmenalize every single section of a webpage, and allow the HTML to be written alongside the Javascript. React uses Containers and Components to render each section of a webpage and utilizes tools such as State, Effect, and Props to make displaying information cleaner and more readable. React apps are far more maintainable than pure Javascript HTML Web Apps.
+
+- Created Multiple React Applications
+    - Beer search page that connects to a public API and maps over all the data and allows searching and filtering through that data
+    - Weather Log Page that connects to a public API and then logs over the data to create a history of everytime a location has been searched.
+    - Instagram Profile Page clone (limited functionality)
+
+### Benefits of using React
+The largest benefit of using React is that your code becomes far more maintainable. Instead of one gigantic JS file and however many HTML files, you combine HTML and Javascript into one easy to read JSX file structure. Along with this idea, your components and containers are REUSEABLE, meaning you can call that same component wherever you want in your webapp multiple times and pass it different information each time. This streamlines the construction of web applications in React making it a far better choice than pure JS.
